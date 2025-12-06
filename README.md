@@ -1,6 +1,6 @@
 ## What it is
-Automation framework (example).
-Created on Oct-02-2025
+- Automation framework (example).
+- Created on Oct-02-2025
 
 ---
 
