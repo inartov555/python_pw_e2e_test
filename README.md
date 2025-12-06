@@ -1,10 +1,11 @@
 ## What it is
 Automation framework (example).
+Created on Oct-02-2025
 
 ---
 
 ## Note:
- - !!! This is just an example of the code; this framework cannot be used for testing Instagram or running multiple times !!!
+- !!! This is just an example of the code; this framework cannot be used for testing Instagram or running multiple times !!!
 
 ---
 
@@ -34,7 +35,7 @@ To start tests, you need:
 
 ## Structure
 ```
-python_pytest_playwright_e2e_test/
+python_pw_e2e_test/
   src/
     core/          # config, browser, logging, base abstractions
     components/    # reusable UI components (PostCard)
