@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Input parameters:
+#
 #   - NONE
+#
 # Exported variables: HOST_ARTIFACTS, ROOT_VENV, TEST_VENV, COPIED_PROJECT_PATH
 
 ARTIFACTS_ROOT_FOLDER="TEST1"
@@ -64,4 +66,4 @@ python3 -m pip install -r "$BASE_REQ_FILE"
 playwright install
 
 echo "Virtual env set up to: $(pwd)"
-export TEST_VENV=$(pwd)
+export TEST_VENV="$(pwd)"
