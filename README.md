@@ -6,6 +6,7 @@
 
 ## Note:
 - !!! This is just an example of the code; this framework cannot be used for testing Instagram or running multiple times !!!
+- But anyway, the tests run if the framework is started
 
 ---
 
@@ -35,7 +36,7 @@ To start tests, you need:
 
 ## Structure
 ```
-python_pw_e2e_test/
+$PROJECT_DIRECTORY/
   src/
     core/          # config, browser, logging, base abstractions
     components/    # reusable UI components (PostCard)
