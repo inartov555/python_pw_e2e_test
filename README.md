@@ -52,10 +52,9 @@ $PROJECT_DIRECTORY/
 - **Page Object + Components**: complex parts of the feed are encapsulated into a `PostCard` component with clear actions 
   (e.g., `like()`, `save()`, `open_comments()`) to favor single responsibility and reusability.
 - **Typing & lint-friendly**: type hints and docstrings added; methods return self or domain objects for fluent usage.
-- **Capcha issue** This issue can be covered by `wait_to_handle_capture_manually = true` and after that, handle it manually 
-  while the test is waiting 120 seconds. I'd say that the CAPTCHA issue will not happen when tests are run just a few times.
+- **Capcha issue** This issue can be covered by `wait_to_handle_capture_manually = true`, and after that, handle it manually 
+  while the test is waiting 120 seconds. Usually, the CAPTCHA is not shown if tests are run just a few times.
 - **Password encryption** It's a good thing to keep sensitive data like passwords, etc., encrypted to avoid data leakage.
-- **PlaywrightDriver** This adapter was added for dependency inversion. Also, it'll provide the ability to easily add unit tests for pages.
 - **Locators with text**: The text needs to be placed in the localization classes later to support different languages
 
 See [`WHAT_TESTS_DO.md`](./WHAT_TESTS_DO.md) to get the test description.
